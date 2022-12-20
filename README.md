@@ -19,5 +19,5 @@ This is an technical exam for express-graphql project
 3. Start app
 
    ```bash
-   node index.js
+   npm start
    ```
