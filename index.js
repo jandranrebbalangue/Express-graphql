@@ -73,7 +73,7 @@ app.use(
   "/exam",
   graphqlHTTP({
     schema,
-    rootValue: rootValue,
+    rootValue,
     graphiql: true,
   })
 );
