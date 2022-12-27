@@ -9,8 +9,9 @@ const schema = buildSchema(`
   type NumDays {
     num_days: Int
   }
+
   type File {
-  file_size:Int
+   file_size: Int
   }
 
   type Mutation {
@@ -29,7 +30,7 @@ class File {
   }
 
   file_size() {
-    fs.writeFile("./contents.txt", this.contents, function (err) {
+    fs.writeFile("./contents.txt", this.contents, function(err) {
       if (err) {
         return console.log(err);
       }
